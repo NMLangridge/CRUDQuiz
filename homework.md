@@ -45,10 +45,10 @@ Look at the `find_by_id` and `find_by_address` methods in the `Property` class.
 
 Q10. What do they take in as their arguments?
 
-  find_by_id takes in find ("SELECT * FROM properties WHERE id = $1") and values
-  find_by_address takes in find_by_address ("SELECT * from properties WHERE address = $1") and values
+    find_by_id takes in find ("SELECT * FROM properties WHERE id = $1") and values
+    find_by_address takes in find_by_address ("SELECT * from properties WHERE address = $1") and values
 
 Q11. What are their return values?
 
-  find_by_id returns property2
-  find_by_address returns property3
+    find_by_id returns property2
+    find_by_address returns property3
